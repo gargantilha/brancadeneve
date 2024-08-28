@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>Branca de Neve e os 7 Anões</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/cenario-passo0.png" alt="">
+            <p>Você encontrou um antigo livro na biblioteca da escola que conta a história de Branca de Neve e os 7 Anões. O livro menciona uma série de desafios que você deve enfrentar para encontrar Branca de Neve. Vamos começar!</p>
+            <button class="btn-proximo" data-proximo="1">Ir para a Floresta</button>
+            <button class="btn-proximo" data-proximo="2">Visitar o Castelo da Rainha Má</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Você começa sua jornada na Floresta. A primeira pista diz que você deve procurar uma clareira onde Branca de Neve pode ter deixado algum sinal.</p>
+            <button class="btn-proximo" data-proximo="3">Procurar a clareira</button>
+            <button class="btn-proximo" data-proximo="4">Desistir e voltar para casa</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>No Castelo da Rainha Má, você encontra um velho mapa que sugere que Branca de Neve pode estar escondida em uma cabana na Floresta. Onde você quer procurar?</p>
+            <button class="btn-proximo" data-proximo="5">Investigar a cabana</button>
+            <button class="btn-proximo" data-proximo="6">Explorar o jardim do castelo</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>Na clareira da Floresta, você encontra uma pista que leva a uma cabana. É lá que Branca de Neve pode estar escondida.</p>
+            <button class="btn-proximo" data-proximo="7">Ir para a cabana</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <img src="img/cenario-passo4-voltar-casa.png" alt="imagem voltando para casa e desistindo da aventura">
+            <p>Você decide que a busca é muito arriscada e volta para casa, mas sempre se pergunta se teria encontrado Branca de Neve.</p>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>Na cabana, você encontra um bilhete dos 7 Anões dizendo que Branca de Neve foi vista em uma clareira próxima.</p>
+            <button class="btn-proximo" data-proximo="7">Seguir para a clareira</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>Explorando o jardim do castelo, você encontra algumas flores que podem estar relacionadas a Branca de Neve, mas não há mais pistas.</p>
+            <button class="btn-proximo" data-proximo="8">Voltar e investigar a cabana</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p>Na clareira, você encontra uma pista que indica que Branca de Neve está em uma cabana secreta.</p>
+            <button class="btn-proximo" data-proximo="9">Procurar a cabana secreta</button>
+            <button class="btn-proximo" data-proximo="10">Voltar para a cabana</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <p>De volta à cabana, você encontra um novo bilhete dos 7 Anões que confirma que Branca de Neve está na clareira.</p>
+            <button class="btn-proximo" data-proximo="7">Ir para a clareira</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <p>A cabana secreta é um local encantado onde Branca de Neve e os 7 Anões vivem felizes. Você os encontra e todos comemoram sua chegada!</p>
+            <button class="btn-proximo" data-proximo="11">Celebrar com Branca de Neve e os Anões</button>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <p>Ao voltar para a cabana, você percebe que a cabana secreta está vazia, e não há mais pistas sobre Branca de Neve.</p>
+            <button class="btn-proximo" data-proximo="12">Tentar novamente na clareira</button>
+        </div>
+
+        <div class="passo" id="passo-11">
+            <img src="https://aventurasnahistoria.com.br/media/_versions/curiosidades/branca_de_neve_2_widelg.jpg" alt="encontrando Branca de Neve e os 7 Anões na cabana secreta">
+            <p>Branca de Neve e os 7 Anões estão muito felizes por sua visita. Você passa um tempo maravilhoso com eles, celebrando e aprendendo sobre suas aventuras.</p>
+        </div>
+
+        <div class="passo" id="passo-12">
+            <p>Voltando à clareira, você encontra a cabana secreta e finalmente encontra Branca de Neve e os 7 Anões.</p>
+            <button class="btn-proximo" data-proximo="11">Celebrar com Branca de Neve e os Anões</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
